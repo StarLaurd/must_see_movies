@@ -11,6 +11,6 @@ class Director < ApplicationRecord
   # Scopes
 
   def to_s
-    created_at
+    name
   end
 end
